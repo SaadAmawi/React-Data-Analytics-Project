@@ -29,7 +29,7 @@ window.addEventListener('resize',showButton);
       <div className="navbar-container">
 
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-        MemorEyez <i class="fa-regular fa-eye"></i>
+        <i class="fa-regular fa-eye"></i>&nbsp;MemorEyez 
         </Link>
 
         <div className='menu-icon' onClick={handleCLick}>
