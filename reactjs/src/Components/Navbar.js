@@ -38,12 +38,12 @@ window.addEventListener('resize',showButton);
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className = 'nav-item'>
             <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-            <i class="fa-solid fa-house"></i>&nbsp;Home
+           Home
             </Link>           
         </li>
         <li className = 'nav-item'>
             <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-            <i class="fa-solid fa-list-check"></i> &nbsp; Projects
+            Projects
             </Link>            
         </li>
         <li className = 'nav-item'>
@@ -51,6 +51,15 @@ window.addEventListener('resize',showButton);
                 About
             </Link>          
         </li>
+        <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
         </ul>
         {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
      </div>
