@@ -8,7 +8,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/Videos/BG2.mp4' autoPlay loop muted />
-      <h1>A Smart Solution to Alzheimer's and Dementia</h1>
+      
+      <h1>MemorEyez</h1>
+      <h2>A Smart Solution to Alzheimer's and Dementia</h2>
       <p>Improve your cognition today!</p>
       <div className='hero-btns'>
         <Button
