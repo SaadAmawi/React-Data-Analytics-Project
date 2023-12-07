@@ -6,6 +6,7 @@ function Cards() {
   return (
     <div className='cards'>
       <h1>Our services and features</h1>
+      <h2>Empowering lives, Nurturing Minds: Your Partner in alzeimers and dementia wellness</h2>
       <div className="cards__container">
         <div className="cards__wrapper">
             <ul className="cards__items">

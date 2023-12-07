@@ -1,3 +1,4 @@
+
 video {
     object-fit: cover;
     width: 100%;
@@ -24,15 +25,22 @@ video {
     font-size: 100px;
     margin-top: 100px;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
     
   }
   .hero-container > h2 {
     color:  #fafafa;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .hero-container > h3 {
+    color:  #fafafa;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   
@@ -47,14 +55,26 @@ video {
     margin-top: 5px;
     
   }
+  .hero-btns-download {
+    margin-top: 5px;
+    
+  }
   
   .hero-btns .btn {
     margin: 6px;
-    
     align-items: center;
+   
     
     
   }
+  .hero-btns-download .btn {
+    margin: 6px;
+    align-items: center;
+    
+    
+    
+  }
+  
   
   .fa-play-circle {
     margin-left: 4px;

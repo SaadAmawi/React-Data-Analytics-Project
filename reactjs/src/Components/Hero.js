@@ -3,6 +3,8 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Hero.css';
+import styled from "styled-components";
+
 
 function HeroSection() {
   return (
@@ -10,8 +12,10 @@ function HeroSection() {
       <video src='/Videos/BG2.mp4' autoPlay loop muted />
       
       <h1>MemorEyez</h1>
-      <h2>A Smart Solution to Alzheimer's and Dementia</h2>
-      <p>Improve your cognition today!</p>
+      <h3>Empowering lives, Nurturing Minds</h3>
+      <h2>A Smart Approach for Managing Alzheimer's and Dementia</h2>
+      <p>
+</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -20,6 +24,8 @@ function HeroSection() {
         >
           WATCH TRAILER<i className='far fa-play-circle' />
         </Button>
+        </div>
+        <div className='hero-btns-download'>
         <Button
           className='btns'
           buttonStyle='btn--primary'
@@ -27,8 +33,20 @@ function HeroSection() {
           onClick={console.log('hey')}
         >
           
-          DOWNLOAD NOW 
+          <i class="fa-brands fa-windows"></i>&nbsp;DOWNLOAD NOW 
         </Button>
+      
+     
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          
+          <i class="fa-brands fa-apple"></i>&nbsp;DOWNLOAD NOW 
+        </Button>
+        
       </div>
     </div>
   );
