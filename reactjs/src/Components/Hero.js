@@ -3,16 +3,14 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Hero.css';
-import styled from "styled-components";
 
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/Videos/BG2.mp4' autoPlay loop muted />
+      <video src='/Videos/BGis.mp4' autoPlay loop muted />
       
       <h1>MemorEyez</h1>
-      <h3>Empowering lives, Nurturing Minds</h3>
       <h2>A Smart Approach for Managing Alzheimer's and Dementia</h2>
       <p>
 </p>
