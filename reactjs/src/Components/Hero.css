@@ -5,6 +5,9 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1;
+    opacity: 1;
+    background-color: rgb(1, 255, 170);
+    background-blend-mode: multiply;
 }
 
   .hero-container {
@@ -67,14 +70,25 @@ video {
     
     
   }
-  .hero-btns-download .btn {
-    margin: 6px;
-    align-items: center;
-    
-    
-    
-  }
   
+
+  a{
+    margin-right:20px;
+    align-items: end;
+  }
+
+
+  .hero-btns-download {
+    margin-top: 10px;
+    margin: 10px;
+    align-items:end;
+  }
+  .bn45:hover{
+    transform: scale(1.1);
+  }
+  .bn46:hover{
+    transform: scale(1.1);
+  }
   
   .fa-play-circle {
     margin-left: 4px;
@@ -114,6 +128,7 @@ video {
       display:flex;
       text-decoration: none;
     }
+ 
   
     .btn {
       width: 100%;

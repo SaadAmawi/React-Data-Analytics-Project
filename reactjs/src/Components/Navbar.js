@@ -28,7 +28,7 @@ window.addEventListener('resize',showButton);
 
       <div className="navbar-container">
 
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="Pages/Home.js" className="navbar-logo" onClick={closeMobileMenu}>
         <i class="fa-regular fa-eye"></i>&nbsp;MemorEyez 
         </Link>
 
@@ -37,7 +37,7 @@ window.addEventListener('resize',showButton);
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className = 'nav-item'>
-            <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
            Home
             </Link>           
         </li>
@@ -51,17 +51,13 @@ window.addEventListener('resize',showButton);
                 About
             </Link>          
         </li>
-        <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
+        <li className='nav-item'>
+              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu} >
                 Sign Up
               </Link>
             </li>
         </ul>
-        {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+        {button && <Button href="services" buttonStyle='btn--outline'>SIGN UP</Button>}
      </div>
     </nav>
     </>

@@ -23,27 +23,18 @@ function HeroSection() {
           WATCH TRAILER<i className='far fa-play-circle' />
         </Button>
         </div>
+
+
         <div className='hero-btns-download'>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          
-          <i class="fa-brands fa-windows"></i>&nbsp;DOWNLOAD NOW 
-        </Button>
+    
+          <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1" tabIndex="0"><img class="bn45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" 
+        width="185" height="58"alt="bn45"/></a>
+          <a href="https://www.apple.com/ae/app-store/" tabIndex="0"><img class="bn46" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          width="180" height="60" alt="bn45"/></a>
+        
       
-     
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          
-          <i class="fa-brands fa-apple"></i>&nbsp;DOWNLOAD NOW 
-        </Button>
+      
+           
         
       </div>
     </div>
