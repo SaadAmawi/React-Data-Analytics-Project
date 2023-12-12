@@ -51,7 +51,7 @@ function Footer() {
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
-          <div class='footer-link-items'>
+          <div class='footer-link-items2'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>

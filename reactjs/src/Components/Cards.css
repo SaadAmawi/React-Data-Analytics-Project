@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 2rem;
     background: #fff;
   }
   
@@ -20,14 +20,14 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    
   }
   
   .cards__items {
@@ -40,7 +40,14 @@
     margin: 0 1rem;
     border-radius: 10px;
   }
-  
+  .apple{
+    color: gray;    
+    position: absolute; 
+    margin-top: 0; 
+    margin-left: 0; 
+    width:100%;    
+    background-color: orange }
+    
   .cards__item__link {
     display: flex;
     flex-flow: column;
@@ -101,15 +108,19 @@
   .cards__item__info {
     padding: 20px 30px 30px;
   }
+  .cards__item__info > h5 {
+   
+    text-align: center;
+    align-items: center;
+  }
   
   .cards__item__text {
     color: #252e48;
     font-size: 22px;
     line-height: 24px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
+    font-family: 'poppins', serif;
+  }  
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;

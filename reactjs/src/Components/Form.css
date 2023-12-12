@@ -1,0 +1,26 @@
+.Forms{
+    margin: 20px;
+    display: block;
+    align-items: center;
+}
+
+.Drop{
+    margin-left: 50px;
+}
+
+.Email{
+    margin: 10px;
+    align-items: center;
+}
+
+.Pass{
+    margin: 10px;
+    align-items: center;
+}
+@media screen and (max-width: 820px) {
+  .Forms{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+  }  
+}

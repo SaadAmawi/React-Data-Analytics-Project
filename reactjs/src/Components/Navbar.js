@@ -28,7 +28,7 @@ window.addEventListener('resize',showButton);
 
       <div className="navbar-container">
 
-        <Link to="Pages/Home.js" className="navbar-logo" onClick={closeMobileMenu}>
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
         <i class="fa-regular fa-eye"></i>&nbsp;MemorEyez 
         </Link>
 
@@ -57,7 +57,7 @@ window.addEventListener('resize',showButton);
               </Link>
             </li>
         </ul>
-        {button && <Button href="services" buttonStyle='btn--outline'>SIGN UP</Button>}
+        {button && <Button href="/sign-up" buttonStyle='btn--outline'>SIGN UP</Button>}
      </div>
     </nav>
     </>
