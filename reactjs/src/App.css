@@ -12,7 +12,7 @@
 
   
   .services {
-  
+    background-image: url(Images/img-home.jpg);
     margin: 0;
 
     background-position: center;
@@ -31,7 +31,7 @@
   }
   
   .about {
-    
+    background-image: url(Images/img-2.jpg);
     margin: 0;
     
     background-position: center;
@@ -43,7 +43,7 @@
   }
 
   .sign-up {
-    
+    background-image: url(Images/img-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
