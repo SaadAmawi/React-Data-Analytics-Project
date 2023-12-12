@@ -14,7 +14,7 @@
   .services {
   
     margin: 0;
-   background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\public\Images\img-home.jpg);
+   background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\src\Images\img-home.jpg);
     background-position: center;
     background-size:auto;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
   .about {
     
     margin: 0;
-    background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\public\Images\img-2.jpg);
+    background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\src\Images\img-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
   }
 
   .sign-up {
-    background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\public\Images\img-3.jpg);
+    background-image: url(C:\Users\USER\Desktop\GitLearn\reactjs\src\Images\img-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
