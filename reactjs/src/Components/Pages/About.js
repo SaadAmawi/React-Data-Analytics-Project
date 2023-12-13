@@ -20,7 +20,7 @@ export default function About() {
     <m.h1  className="lol"
     animate={{y:0}}
     initial={{y:"100%"}}
-    transition={{delay:0.8,duration:1.2}}>ABOUT</m.h1></div></div>;
+    transition={{delay:0.8,duration:1.2}}>ABOUT</m.h1></div></div>
 
         <h2 id="AboutSection">&nbsp;</h2>
            <AboutCards/>;

@@ -6,18 +6,18 @@ function Form() {
     <div className='Form-wrapper'>
 <form className='Forms'>
   <label className='Email'>
-    Email:&nbsp;
+    Email
     <input type="text" name="name" />
   </label>
-  <label className='Pass'>
-    Enter Password:&nbsp;
-    <input type="password" name="pass" />
+  <label className='Names'>
+    First Name
+    <input type="text" name="Names" />
   </label>
-  <label className='Pass'>
-    Re-Enter Password:&nbsp;
-    <input type="password" name="pass" />
+  <label className='Names'>
+    Last Name
+    <input type="text" name="Names" />
   </label>
-  <input type="submit" value="Submit" />
+  <input type="submit" value="Sign Up" className="Submit" />
 
 
   

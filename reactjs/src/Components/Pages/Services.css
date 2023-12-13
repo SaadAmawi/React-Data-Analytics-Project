@@ -38,7 +38,10 @@ video {
   }
 
 .lol{text-decoration: none;
-color: #ffffff;
+color: transparent;
+stroke:3px black;
+box-shadow: 2px solid black;
+-webkit-text-stroke: 4.5px rgb(255, 255, 255);
 font-size: 100px;
 
 }

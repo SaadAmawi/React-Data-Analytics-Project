@@ -21,7 +21,7 @@
     color: #ffffff;
     font-size: 100px;
     height:90vh;
-    border-bottom: black 12px solid;
+    border-bottom: black 2px solid;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -47,6 +47,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
     color: #282626;
     font-size: 150px;
     border: solid 3px black;
