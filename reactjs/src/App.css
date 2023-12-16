@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.home,
+.services,
+.about,
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+.services {
+  background-image: url(Images/img-home.jpg);
+  margin: 0;
+
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 100px;
+  height:95vh;
+  border-bottom: black 2px solid;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  text-decoration: none;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  background-image: url(Images/img-2.jpg);
+  margin: 0;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 95vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sign-up {
+  background-image: url(Images/img-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  color: #282626;
+  font-size: 150px;
+  border: solid 3px black;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
