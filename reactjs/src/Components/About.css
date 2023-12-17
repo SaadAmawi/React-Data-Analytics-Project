@@ -9,6 +9,10 @@
     
 }
 
+.about-wrapper{
+    text-align:center;
+}
+
 .about_items{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -68,7 +72,7 @@
         display: block;
         flex: 1;
         margin: 40 1rem;
-        width:80%;
+        width:fit-content;
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.475);
         text-align:center;
@@ -76,6 +80,9 @@
         margin-left: 70px;
 
         
+    }
+    .about-wrapper{
+        text-align:center;
     }
 }
 
