@@ -11,7 +11,7 @@ function HeroSection() {
   return (
  
     <div className='hero-container'>
-      <video src='/Videos/elderly.mp4' autoPlay loop muted />
+      <video src='/Videos/Elders.mp4' autoPlay loop muted />
       <div className='Titles'>
       <m.h1
       animate={{y:0}}
@@ -27,7 +27,7 @@ function HeroSection() {
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{delay:1, duration: 0.8}}>
-        <Button 
+        <Button hr
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
