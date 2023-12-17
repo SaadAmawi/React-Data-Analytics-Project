@@ -11,7 +11,7 @@ function HeroSection() {
   return (
  
     <div className='hero-container'>
-      <video src='/Videos/elders.mp4' autoPlay loop muted />
+      <video src='/Videos/elderly.mp4' autoPlay loop muted />
       <div className='Titles'>
       <m.h1
       animate={{y:0}}
