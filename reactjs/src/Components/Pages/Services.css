@@ -56,3 +56,14 @@ font-size: 100px;
 padding:1px;
 color: #ef9a9a;
 overflow: hidden;}
+
+@media screen and (max-width: 960px) {
+    
+    .lol{text-decoration: none;
+        color: white;
+        stroke:3px black;
+        box-shadow: 2px solid black;
+        font-size: 60px;
+        
+        }
+  }

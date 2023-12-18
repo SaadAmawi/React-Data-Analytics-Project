@@ -11,7 +11,11 @@
   border-bottom: 10px solid black;
 }
 
+
 .Titles{
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin-top: 140px;
   margin-bottom: 90px;
   overflow: hidden;
@@ -74,7 +78,10 @@ a{
 .hero-btns-download {
   margin-top: 10px;
   margin: 10px;
-  align-items:end;
+  align-items:center;
+  display: flex;
+  position: relative;
+  justify-content: left;
 }
 .bn45:hover{
   transform: scale(1.1);
@@ -95,15 +102,24 @@ a{
 }
 
 @media screen and (max-width: 768px) {
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: 150px;
+  .Titles >h1{
+    font-size: 50px;
+  }
+
+  .hero-btns-download{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
   @media screen and (max-width: 960px) {
-      .hero-container > h2 {
+      .Titles > h2 {
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: 5px;
+      }
+      h1{
+        font-size: 10px;
       }
     }
     
@@ -111,6 +127,9 @@ a{
       .hero-container > h2 {
         font-size: 35px;
         margin-top: 10px;
+      }
+      h1{
+        font-size: 10px;
       }
 
   .hero-container > p {

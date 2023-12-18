@@ -7,7 +7,7 @@ function AboutCards() {
 
     
         <div className="about__container">
-        <div className="about__wrapper"></div>
+        <div className="about__wrapper">
         <ul className='about_items'> 
       <AboutItem
         texts="Motivation"
@@ -22,6 +22,7 @@ function AboutCards() {
         icon="fa-solid fa-lightbulb"
         text="Our system integrates immersive virtual reality (VR) experiences, voice recognition, and Artificial Intelligence (AI) algorithms to provide comprehensive support for individuals affected by Alzheimer's and dementia. This innovative solution significantly enhances the quality of life for senior citizens by encouraging cognitive activity, alleviating isolation, and promoting independence. "/>
      </ul>
+     </div>
     </div>
     
   )

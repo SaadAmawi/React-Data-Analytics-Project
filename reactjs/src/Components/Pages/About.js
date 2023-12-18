@@ -23,8 +23,8 @@ export default function About() {
     transition={{delay:0.8,duration:1.2}}>ABOUT</m.h1></div></div>
 
         <h2 id="AboutSection">&nbsp;</h2>
-           <AboutCards/>;
-          <Footer/>  ;
+           <AboutCards/>
+          <Footer/>  
           
             
             </m.div>)

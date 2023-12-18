@@ -7,6 +7,8 @@
     border: 2px solid black;
     padding: 50px;
    width: fit-content;
+   justify-content: center;
+   align-items: center;
    background-color: white;
   border-radius: 10px;
   
@@ -16,6 +18,9 @@
 .Form-wrapper {
   background-color: #242424;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 
 .Email{
@@ -44,21 +49,28 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 10px;
+  position: relative;
 }
-label,input{display: block;
-            margin-top: -2px;
-           
-  
+
+label,input{
+    display: block;
+    margin-top: -2px;
   }
+ 
+
+
 .Submit{
-  width:fit-content;
+    width:100%;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-size: 18px;
-  margin-left: 50px;
   background-color: rgb(250, 248, 228);
- 
+  position: relative;
 }
+
 .Submit:hover{
 
   background-color: rgb(255, 255, 255);
@@ -69,5 +81,28 @@ label,input{display: block;
     display:flex;
     flex-direction:column;
     text-align: center;
+    width:300px;
+    justify-content: right;
+    align-items: center;
   }  
-}
+  input{
+    width: 1px;
+    padding:10px 100px
+  }
+  .Submit{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+  }
+  .Forms > .Submit{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    place-items: center;
+ }
+ 
+  }
+  

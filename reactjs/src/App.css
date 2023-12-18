@@ -26,8 +26,6 @@
   justify-content: center;
   display: flex;
   text-decoration: none;
-
-
 }
 
 .about {
@@ -55,4 +53,40 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+    
+  .services {
+    background-image: url(Images/img-home.jpg);
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 100px;
+    height:90vh;
+    border-bottom: black 2px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+  }
+  .about {
+    background-image: url(Images/img-2.jpg);
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 100px;
+    height:90vh;
+    border-bottom: black 2px solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+  }
 }
